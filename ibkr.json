@@ -1,0 +1,377 @@
+{
+ "schema": 1,
+ "generated_utc": "2026-10-30T07:30:10+00:00",
+ "about": "The Interactive Brokers paper account that copies the Team Manager every weekday morning, next to the simulated Team Manager. Both are valued at the same close: the account before that morning's orders, the simulation at the close whose results were copied. Returns are in Swiss francs, so the account's own currency does not blur the comparison.",
+ "agent": "manager",
+ "agent_name": "Team Manager",
+ "account_currency": "CHF",
+ "since": "2026-10-26",
+ "latest": {
+  "date": "2026-10-30",
+  "results_of": "2026-10-29",
+  "same_close": true,
+  "real": {
+   "value": 914726.37,
+   "currency": "CHF",
+   "value_chf": 914726.37,
+   "cash": 305697.59,
+   "cash_chf": 305697.59,
+   "invested": 0.6658,
+   "positions": 22,
+   "watchlist_positions": 22
+  },
+  "sim": {
+   "value_chf": 99931.01,
+   "cash_chf": 33810.14,
+   "invested": 0.6617,
+   "positions": 22
+  },
+  "tracking": {
+   "return": 0.001485,
+   "sim_return": 0.003599,
+   "difference": -0.002115,
+   "return_total": -0.00324,
+   "sim_return_total": 0.000344,
+   "difference_total": -0.003584,
+   "since": "2026-10-26",
+   "holdings_gap": 0.0029,
+   "tracking_error_yearly": null
+  },
+  "weights": [
+   {
+    "ticker": "MA",
+    "holds_as": null,
+    "sim": 0.0576,
+    "real": 0.0572,
+    "difference": -0.0004
+   },
+   {
+    "ticker": "MSFT",
+    "holds_as": null,
+    "sim": 0.0568,
+    "real": 0.0573,
+    "difference": 0.0005
+   },
+   {
+    "ticker": "SOON.SW",
+    "holds_as": null,
+    "sim": 0.0507,
+    "real": 0.0514,
+    "difference": 0.0007
+   },
+   {
+    "ticker": "ABBV",
+    "holds_as": null,
+    "sim": 0.0455,
+    "real": 0.0456,
+    "difference": 0.0
+   },
+   {
+    "ticker": "XOM",
+    "holds_as": null,
+    "sim": 0.0438,
+    "real": 0.0442,
+    "difference": 0.0004
+   },
+   {
+    "ticker": "XLE",
+    "holds_as": "SXLE",
+    "sim": 0.0351,
+    "real": 0.0358,
+    "difference": 0.0007
+   },
+   {
+    "ticker": "CVX",
+    "holds_as": null,
+    "sim": 0.0343,
+    "real": 0.0344,
+    "difference": 0.0
+   },
+   {
+    "ticker": "LLY",
+    "holds_as": null,
+    "sim": 0.034,
+    "real": 0.0334,
+    "difference": -0.0006
+   },
+   {
+    "ticker": "V",
+    "holds_as": null,
+    "sim": 0.0305,
+    "real": 0.0307,
+    "difference": 0.0002
+   },
+   {
+    "ticker": "GE",
+    "holds_as": null,
+    "sim": 0.0284,
+    "real": 0.0285,
+    "difference": 0.0001
+   },
+   {
+    "ticker": "BRK-B",
+    "holds_as": null,
+    "sim": 0.0268,
+    "real": 0.0268,
+    "difference": 0.0
+   },
+   {
+    "ticker": "GOOGL",
+    "holds_as": null,
+    "sim": 0.0257,
+    "real": 0.0258,
+    "difference": 0.0001
+   },
+   {
+    "ticker": "KO",
+    "holds_as": null,
+    "sim": 0.0252,
+    "real": 0.0252,
+    "difference": -0.0
+   },
+   {
+    "ticker": "COST",
+    "holds_as": null,
+    "sim": 0.0246,
+    "real": 0.0242,
+    "difference": -0.0004
+   },
+   {
+    "ticker": "XLV",
+    "holds_as": "SXLV",
+    "sim": 0.0228,
+    "real": 0.0231,
+    "difference": 0.0003
+   },
+   {
+    "ticker": "UNH",
+    "holds_as": null,
+    "sim": 0.0203,
+    "real": 0.0204,
+    "difference": 0.0
+   },
+   {
+    "ticker": "MRK",
+    "holds_as": null,
+    "sim": 0.0193,
+    "real": 0.0195,
+    "difference": 0.0002
+   },
+   {
+    "ticker": "T",
+    "holds_as": null,
+    "sim": 0.0185,
+    "real": 0.0187,
+    "difference": 0.0002
+   },
+   {
+    "ticker": "TMO",
+    "holds_as": null,
+    "sim": 0.0175,
+    "real": 0.0172,
+    "difference": -0.0003
+   },
+   {
+    "ticker": "EWZ",
+    "holds_as": "IDBZ",
+    "sim": 0.015,
+    "real": 0.0154,
+    "difference": 0.0003
+   },
+   {
+    "ticker": "META",
+    "holds_as": null,
+    "sim": 0.0154,
+    "real": 0.0152,
+    "difference": -0.0003
+   },
+   {
+    "ticker": "JNJ",
+    "holds_as": null,
+    "sim": 0.0136,
+    "real": 0.0136,
+    "difference": 0.0
+   }
+  ],
+  "orders": {
+   "planned": 0,
+   "sent": 0,
+   "refused": 0,
+   "orders": [],
+   "currency": [],
+   "kept_in_cash": []
+  },
+  "previous_orders": {
+   "date": "2026-10-29",
+   "sent": 0,
+   "filled": 0,
+   "partly_filled": 0,
+   "not_filled": 0,
+   "orders": []
+  }
+ },
+ "history": [
+  {
+   "date": "2026-10-23",
+   "results_of": "2026-10-21",
+   "same_close": false,
+   "value": 914113.29,
+   "value_chf": 914113.29,
+   "cash_chf": 377801.67,
+   "invested": 0.5867,
+   "positions": 19,
+   "sim_value_chf": 99682.85,
+   "sim_invested": 0.6935,
+   "sim_positions": 23,
+   "return": null,
+   "sim_return": null,
+   "difference": null,
+   "return_total": null,
+   "sim_return_total": null,
+   "difference_total": null,
+   "holdings_gap": 0.0795,
+   "planned": 6,
+   "sent": 6,
+   "refused": 0,
+   "kept_in_cash": 0,
+   "filled": 6,
+   "partly_filled": 0,
+   "not_filled": 0
+  },
+  {
+   "date": "2026-10-26",
+   "results_of": "2026-10-23",
+   "same_close": true,
+   "value": 917699.86,
+   "value_chf": 917699.86,
+   "cash_chf": 279155.18,
+   "invested": 0.6958,
+   "positions": 23,
+   "sim_value_chf": 99896.76,
+   "sim_invested": 0.6825,
+   "sim_positions": 23,
+   "return": null,
+   "sim_return": null,
+   "difference": null,
+   "return_total": 0.0,
+   "sim_return_total": 0.0,
+   "difference_total": 0.0,
+   "holdings_gap": 0.0642,
+   "planned": 6,
+   "sent": 6,
+   "refused": 0,
+   "kept_in_cash": 0,
+   "filled": 6,
+   "partly_filled": 0,
+   "not_filled": 0
+  },
+  {
+   "date": "2026-10-27",
+   "results_of": "2026-10-26",
+   "same_close": true,
+   "value": 914038.4,
+   "value_chf": 914038.4,
+   "cash_chf": 308483.86,
+   "invested": 0.6625,
+   "positions": 22,
+   "sim_value_chf": 99658.49,
+   "sim_invested": 0.6607,
+   "sim_positions": 22,
+   "return": -0.00399,
+   "sim_return": -0.002385,
+   "difference": -0.001605,
+   "return_total": -0.00399,
+   "sim_return_total": -0.002385,
+   "difference_total": -0.001605,
+   "holdings_gap": 0.0027,
+   "planned": 0,
+   "sent": 0,
+   "refused": 0,
+   "kept_in_cash": 0,
+   "filled": 0,
+   "partly_filled": 0,
+   "not_filled": 0
+  },
+  {
+   "date": "2026-10-28",
+   "results_of": "2026-10-27",
+   "same_close": true,
+   "value": 912797.91,
+   "value_chf": 912797.91,
+   "cash_chf": 307633.96,
+   "invested": 0.663,
+   "positions": 22,
+   "sim_value_chf": 99513.02,
+   "sim_invested": 0.6602,
+   "sim_positions": 22,
+   "return": -0.001357,
+   "sim_return": -0.00146,
+   "difference": 0.000103,
+   "return_total": -0.005342,
+   "sim_return_total": -0.003841,
+   "difference_total": -0.001501,
+   "holdings_gap": 0.0029,
+   "planned": 0,
+   "sent": 0,
+   "refused": 0,
+   "kept_in_cash": 0,
+   "filled": 0,
+   "partly_filled": 0,
+   "not_filled": 0
+  },
+  {
+   "date": "2026-10-29",
+   "results_of": "2026-10-28",
+   "same_close": true,
+   "value": 913370.45,
+   "value_chf": 913370.45,
+   "cash_chf": 306932.98,
+   "invested": 0.664,
+   "positions": 22,
+   "sim_value_chf": 99572.61,
+   "sim_invested": 0.6604,
+   "sim_positions": 22,
+   "return": 0.000627,
+   "sim_return": 0.000599,
+   "difference": 2.8e-05,
+   "return_total": -0.004718,
+   "sim_return_total": -0.003244,
+   "difference_total": -0.001474,
+   "holdings_gap": 0.0029,
+   "planned": 0,
+   "sent": 0,
+   "refused": 0,
+   "kept_in_cash": 0,
+   "filled": 0,
+   "partly_filled": 0,
+   "not_filled": 0
+  },
+  {
+   "date": "2026-10-30",
+   "results_of": "2026-10-29",
+   "same_close": true,
+   "value": 914726.37,
+   "value_chf": 914726.37,
+   "cash_chf": 305697.59,
+   "invested": 0.6658,
+   "positions": 22,
+   "sim_value_chf": 99931.01,
+   "sim_invested": 0.6617,
+   "sim_positions": 22,
+   "return": 0.001485,
+   "sim_return": 0.003599,
+   "difference": -0.002115,
+   "return_total": -0.00324,
+   "sim_return_total": 0.000344,
+   "difference_total": -0.003584,
+   "holdings_gap": 0.0029,
+   "planned": 0,
+   "sent": 0,
+   "refused": 0,
+   "kept_in_cash": 0,
+   "filled": null,
+   "partly_filled": null,
+   "not_filled": null
+  }
+ ]
+}
